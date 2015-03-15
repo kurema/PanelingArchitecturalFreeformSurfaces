@@ -65,8 +65,8 @@ namespace Paneling
             {
                 var maxdiff = GetMaxStatusDiff();
                 var minimumStatus = GetStatus();
-                double minimumValue = double.MaxValue;
-                int failureCount = 0;
+                //double minimumValue = double.MaxValue;
+                //int failureCount = 0;
 
                 string outcsv = "i,minimumValue,sumenergy,failureCount,result\r\n";
 
