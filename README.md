@@ -6,6 +6,6 @@ Currently, this **DOES NOT WORK** as expected. The problem seems to be on Gauss-
 # LICENSE
 Copyright (C) 2014-2015  kurema
 
-This program is free software. You can redistribute it and/or modify it under the terms of GNU General Public License version 2.
+This program is free software. You can redistribute it and/or modify it under the terms of GNU General Public License version 3.
 
 Contact me if you want to use this program with other license such as MIT License.
