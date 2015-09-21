@@ -20,6 +20,16 @@ namespace Paneling
 {
     public static class GaussNewtonMethod
     {
-
+        static public Matrix SimpleSingle(Matrix Jacobian, Matrix EnergyVector, Matrix StatusVector,double ZeroTolerance=1e-10)
+        {
+            Matrix M1 = Jacobian.Duplicate();
+            M1.Transpose();
+            Matrix M2 = M1 * Jacobian;
+            M2.Invert(ZeroTolerance);
+            M1 = M1 * EnergyVector;
+            M1 = M2 * M1;
+            M1.Scale(-1);
+            return M1;
+        }
     }
 }
